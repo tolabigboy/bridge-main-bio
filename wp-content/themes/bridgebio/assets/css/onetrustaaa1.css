@@ -1,0 +1,211 @@
+#onetrust-consent-sdk #onetrust-banner-sdk a[href],
+#onetrust-consent-sdk #onetrust-banner-sdk a[href] font,
+#onetrust-consent-sdk #onetrust-banner-sdk .ot-link-btn {
+  /* color: black !important; */
+}
+
+#onetrust-consent-sdk #onetrust-policy-text {
+  /* color: #565656 !important; */
+  font-family: "DM Sans", sans-serif;
+}
+
+#onetrust-banner-sdk > div {
+  display: grid !important;
+  grid-template-columns: auto 44px !important;
+  grid-column-gap: 30px !important;
+  max-width: 1320px !important;
+  margin: 0 auto !important;
+  padding: 0 20px !important;
+
+}
+
+@media (max-width: 1185px) {
+  #onetrust-banner-sdk > div {
+    grid-column-gap: 20px !important;
+  }
+}
+
+@media (max-width: 575px) {
+  #onetrust-banner-sdk > div {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+#onetrust-banner-sdk .ot-sdk-container,
+#onetrust-pc-sdk .ot-sdk-container,
+#ot-sdk-cookie-policy .ot-sdk-container {
+  width: 100% !important;
+  padding: 0 !important;
+}
+
+#onetrust-banner-sdk .ot-sdk-row {
+  display: grid !important;
+  grid-template-columns: 7fr 5fr !important;
+  grid-column-gap: 30px !important;
+  margin: 20px auto !important;
+}
+
+@media (max-width: 1185px) {
+  #onetrust-banner-sdk .ot-sdk-row {
+    grid-column-gap: 20px !important;
+  }
+}
+
+@media (max-width: 1023px) {
+  #onetrust-banner-sdk .ot-sdk-row {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media (max-width: 575px) {
+  #onetrust-banner-sdk .ot-sdk-row {
+    margin: 10px auto 20px !important;
+  }
+}
+
+#onetrust-banner-sdk:not(.ot-iab-2) #onetrust-group-container {
+  width: 100% !important;
+  display: grid !important;
+  grid-template-columns: 1fr;
+  grid-column-gap: 20px !important;
+  align-items: center !important;
+
+}
+
+@media (max-width: 1023px) {
+  #onetrust-banner-sdk:not(.ot-iab-2) #onetrust-group-container {
+    margin-bottom: 20px !important;
+  }
+}
+
+@media (max-width: 575px) {
+  #onetrust-banner-sdk:not(.ot-iab-2) #onetrust-group-container {
+    grid-template-columns: 1fr !important;
+    align-items: flex-start !important;
+  }
+}
+
+#onetrust-banner-sdk:not(.ot-iab-2) #onetrust-button-group-parent {
+  width: 100% !important;
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  transform: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+#onetrust-banner-sdk #onetrust-button-group {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 20px !important;
+  width: 100% !important;
+}
+
+@media (max-width: 575px) {
+  #onetrust-banner-sdk #onetrust-button-group {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+}
+
+#onetrust-banner-sdk.ot-bnr-w-logo .ot-bnr-logo {
+  position: relative !important;
+  transform: none !important;
+  top: 0 !important;
+  left: 0 !important;
+  display: none !important;
+}
+
+#onetrust-banner-sdk.ot-bnr-w-logo #onetrust-policy {
+  margin: 0 !important;
+}
+
+#onetrust-banner-sdk #onetrust-accept-btn-handler,
+#onetrust-banner-sdk #onetrust-reject-all-handler,
+#onetrust-banner-sdk #onetrust-pc-btn-handler {
+  font-family: "DM Sans", sans-serif;
+  /* background-color: #E32449 !important;
+  border-color: #E32449 !important; */
+  margin: 0 !important;
+  min-width: 0 !important;
+  transition: all .2s ease-in-out;
+  transform: translate(0%) !important; /* fix element shifting on hover */
+}
+
+#onetrust-banner-sdk #onetrust-accept-btn-handler:hover,
+#onetrust-banner-sdk #onetrust-reject-all-handler:hover,
+#onetrust-banner-sdk #onetrust-pc-btn-handler:hover {
+  /* border: 1px solid #E32449 !important; */
+}
+
+#onetrust-banner-sdk #onetrust-pc-btn-handler {
+  /* background-color: #ffffff !important;
+  border-color: #E32449 !important;
+  color: #E32449 !important; */
+}
+
+#onetrust-banner-sdk #onetrust-close-btn-container {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  position: relative !important;
+  transform: translate(0%) !important; /* fix element shifting on hover */
+  top: 0 !important;
+  left: 0 !important;
+}
+
+@media (max-width: 1023px) {
+  #onetrust-banner-sdk #onetrust-close-btn-container {
+    align-items: flex-start !important;
+    height: 100% !important;
+  }
+}
+
+@media (max-width: 575px) {
+  #onetrust-banner-sdk #onetrust-close-btn-container {
+    position: absolute !important;
+    right: 10px !important;
+    justify-content: flex-end !important;
+    height: auto !important;
+  }
+}
+
+#onetrust-banner-sdk #onetrust-close-btn-container button {
+  right: 0 !important;
+  margin: 0 !important;
+
+}
+
+@media (max-width: 1023px) {
+  #onetrust-banner-sdk #onetrust-close-btn-container button {
+    top: 15px !important;
+  }
+}
+
+#onetrust-pc-sdk #ot-pc-desc .privacy-notice-link {
+  /* color: black !important; */
+  font-family: "DM Sans", sans-serif;
+}
+
+#onetrust-consent-sdk #onetrust-pc-sdk button:not(#clear-filters-handler):not(.ot-close-icon):not(#filter-btn-handler):not(.ot-remove-objection-handler):not(.ot-obj-leg-btn-handler):not([aria-expanded]):not(.ot-link-btn),
+#onetrust-consent-sdk #onetrust-pc-sdk .ot-leg-btn-container .ot-active-leg-btn {
+  /* background-color: #E32449 !important;
+  border-color: #E32449 !important; */
+}
+
+#ot-sdk-btn-floating.ot-floating-button {
+  animation: otFloatingBtnIntroRight 800ms ease 0ms 1 forwards !important;
+}
+
+@keyframes otFloatingBtnIntroRight {
+  0% {
+    opacity:0;
+    right: -75px;
+  }
+  100%{
+    opacity:1;
+    right: 1%;
+  }
+}
